@@ -6,8 +6,8 @@ namespace OperatorExercise
     {
         static void Main(string[] args)
         {
-            var methods = new Methods();
-             Console.WriteLine("Hello World!");
+            //var methods = new Methods();
+             //Console.WriteLine("Hello World!");
              Methods.Division(17, 4);
             //Methods.Division(12, 3);
             //Console.WriteLine("What is the radius of your circle?");
@@ -15,7 +15,7 @@ namespace OperatorExercise
             Console.WriteLine("What is the radius of your circle?");
             var userInput = Console.ReadLine();
             var radius = double.Parse(userInput);
-            Console.WriteLine(methods.AreaOfCircle(radius));
+            Console.WriteLine(Methods.AreaOfCircle(radius));
 
 
 

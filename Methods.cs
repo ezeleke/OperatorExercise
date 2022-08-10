@@ -33,7 +33,7 @@ namespace OperatorExercise
             }
            
         }
-        public Double AreaOfCircle(double radius) 
+        public static double AreaOfCircle(double radius) 
         {
              
             return Math.PI * Math.Pow(radius, 2);
